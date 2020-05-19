@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esgcore.API", "Esgcore.API\Esgcore.API.csproj", "{449A9DA7-4491-4BDA-A834-9F7B3821F631}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esgcore.API", "Esgcore.API\Esgcore.API.csproj", "{449A9DA7-4491-4BDA-A834-9F7B3821F631}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esgcore.Logic", "Esgcore.Logic\Esgcore.Logic.csproj", "{78D681B4-D99B-43A3-99AC-1E5A48A4923C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esgcore.Logic", "Esgcore.Logic\Esgcore.Logic.csproj", "{78D681B4-D99B-43A3-99AC-1E5A48A4923C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esgcore.DB", "Esgcore.DB\Esgcore.DB.csproj", "{2D77E89C-AD76-4F18-9F8E-356E9A67B2B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esgcore.DB", "Esgcore.DB\Esgcore.DB.csproj", "{2D77E89C-AD76-4F18-9F8E-356E9A67B2B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esgcore.EventStore", "Esgcore.EventStore\Esgcore.EventStore.csproj", "{FE67DFC1-37BE-4EC0-BDCA-30036726AFE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esgcore.Projections", "Esgcore.Projections\Esgcore.Projections.csproj", "{307C718C-A991-4CC6-99D1-4B1F3C04F417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esgcore.Domain", "Esgcore.Domain\Esgcore.Domain.csproj", "{2ADD7826-4A2E-4A28-9AC2-D549CE460D83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{2D77E89C-AD76-4F18-9F8E-356E9A67B2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D77E89C-AD76-4F18-9F8E-356E9A67B2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D77E89C-AD76-4F18-9F8E-356E9A67B2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE67DFC1-37BE-4EC0-BDCA-30036726AFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE67DFC1-37BE-4EC0-BDCA-30036726AFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE67DFC1-37BE-4EC0-BDCA-30036726AFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE67DFC1-37BE-4EC0-BDCA-30036726AFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307C718C-A991-4CC6-99D1-4B1F3C04F417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307C718C-A991-4CC6-99D1-4B1F3C04F417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307C718C-A991-4CC6-99D1-4B1F3C04F417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307C718C-A991-4CC6-99D1-4B1F3C04F417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADD7826-4A2E-4A28-9AC2-D549CE460D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADD7826-4A2E-4A28-9AC2-D549CE460D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADD7826-4A2E-4A28-9AC2-D549CE460D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADD7826-4A2E-4A28-9AC2-D549CE460D83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
